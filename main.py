@@ -673,6 +673,8 @@ def setup_driver() -> webdriver.Chrome:
     opts.add_argument("--lang=en-US")
     opts.add_argument("--disable-extensions")
     opts.add_argument("--disable-plugins")
+    opts.add_argument("--disable-images")
+    opts.add_argument("--blink-settings=imagesEnabled=false")
     # opts.add_argument("--disable-images") # Uncomment if needed
     # opts.add_argument("--disable-javascript") # Remove if you need JS
     # Suppress logging
