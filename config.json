@@ -1,0 +1,85 @@
+{
+    "LICENSE_KEY":"LIC-HPJDUNYN0NJFHRCNQSAYUW",
+    "MAX_REPLIES_PER_RUN": 424,
+    
+    "ENABLE_MIX_MODE": true,
+    "MIX_GLOBAL_PERCENT": 100,
+    
+    "SEARCH_QUERY": "LayerBankFi",
+    "GEMINI_API_KEYS": [
+        "AIzaSyAKzPovdiHGf7qy3IJEySnw3cE4dWB8VN4",
+        "AIzaSyC08jk5GaQG7S8vcBhZFhBB_vVhhaaIfe8",
+        "AIzaSyC6Sgg80BNVhOn3uyhqnIWfu8gVuWW9yUU", 
+        "AIzaSyBfrbO3kcKBnSAZr-QettumMJzlY-z0nic",
+        "AIzaSyDpFCcXq2KU4KlHbtOUVMDrxS5sGd29o6w",
+        "AIzaSyBUzNLVLqMlyMzTKWBgLuBBHDjsidv0ImQ",
+        "AIzaSyCBGhuyg-30lRKdWXwURV16qcegX4vjb0o",
+        "AIzaSyCqWIqd9RgUAyI9S0e-rRbqr9lBZQWOGLk"
+    ],
+
+    "FALLBACK_QUESTIONS": [
+        "How do you think  will change DeFi?",
+        "What's one thing you'd encrypt if you could?",
+        "Is  really possible on-chain?"
+      ],
+      "FALLBACK_POSITIVE": [
+        "This makes sense! I’ve been testing it.",
+        "Finally, a solution that actually works.",
+        "Love how this is building real ."
+      ],
+      "FALLBACK_NEGATIVE": [
+        "Seems tricky to implement at scale.",
+        "Would need better performance for mass use.",
+        "Hope it doesn’t slow things down too much."
+      ],
+      "FALLBACK_GENERAL": [
+        "Curious to see how this evolves.",
+        "This feels like the future of Web3.",
+        "Interesting take on confidential computing."
+      ],
+    "GEMINI_MODEL": "gemini-2.5-flash-lite",
+    "COOKIE_FILE": "13rahul.json",
+    "OWN_HANDLE": "arifourty40",
+    "PROCESSED_LOG": "processed_tweets_log.csv",
+    "HEADLESS": true,
+    "ENABLE_LONG_PAUSE": true,
+    "LIKE_REPLY_PERCENTAGE": 60,
+
+
+"_GEMINI_PROMPT_TEMPLATES": [
+  "You are a curious person learning about Zama and . Reply in one short line, under 15 words. Use plain and simple English. Make it like a real human online(who know little english). No hashtags, links, or emojis. No long dashes,no(! ; *) or fancy marks.Don't use the word (sounds),  Tweet: {tweet_text} Reply:"
+],
+
+  "___GEMINI_PROMPT_TEMPLATES":[
+    "You are a curious person learning about Zama and . Reply in one short line, under 15 words. Make it sound human, casual, and supportive, like a friend commenting. No hashtags, links, or emojis. Avoid fancy punctuation (! ; * —). No complex words. Reply naturally to the tweet text: Tweet: {tweet_text} Reply:"
+],
+
+  "GEMINI_PROMPT_TEMPLATES":[
+    "You are a curious person learning about {search_query}. Reply in one short line, under 15 words. Make it sound human, casual, and supportive, like a friend commenting.Reply naturally to the tweet text: Tweet: {tweet_text} Reply:"
+],
+
+"_GEMINI_SYSTEM_PROMPTS": [
+  "You write short replies like a normal person online.",
+  "Keep it simple, casual, and beginner friendly.",
+  "Use plain English. Avoid fancy words or punctuation."
+],
+
+ "GEMINI_SYSTEM_PROMPTS": [
+    "Reply like a friendly small account. Short, supportive, casual, Use simple English. ",
+    "Reply like a curious person learning about . Keep it short, plain, human-like. internet slang,text speak,  Casual, friendly, ",
+    "Reply like a small account friend online. Short, casual, plain English. Supportive and human, . Example tone: 'good afternoon, you're cracking it fam'",
+    "Reply like someone excited about  crypto. Short, friendly, casual. Use simple English,internet slang,text speak, slightly playful",
+    "Reply like a chill observer online. Short, casual, plain English, Friendly, Example tone: 'Seeing your position beyond 100 will keep you motivated.'",
+    "Reply like a playful online user. Short, casual, human,internet slang,text speak, Slightly humorous, supportive'"
+],
+
+ "___________GEMINI_SYSTEM_PROMPTS": [
+    "Reply like a friendly small account. Short, supportive, casual, Use simple English.  Example tone: 'You're doing great bro. You're motivating a lot to small accounts.'",
+    "Reply like a curious person learning about Zama and . Keep it short, plain, human-like. internet slang,text speak,  Casual, friendly,  Example tone: 'Cool! Zama and  sound interesting. Tell me more!'",
+    "Reply like a small account friend online. Short, casual, plain English. Supportive and human, . Example tone: 'good afternoon, you're cracking it fam'",
+    "Reply like someone excited about Zama and crypto. Short, friendly, casual. Use simple English,internet slang,text speak, slightly playful, Example tone: 'Big win brother enjoy those burgers well'",
+    "Reply like a chill observer online. Short, casual, plain English, Friendly, Example tone: 'Seeing your position beyond 100 will keep you motivated.'",
+    "Reply like a playful online user. Short, casual, human, Slightly humorous, supportive, Example tone: 'yo $341M drop is massive but isn't everyone gonna farm this now?'"
+]
+
+}
